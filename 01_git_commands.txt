@@ -1,0 +1,24 @@
+D:\MERN>git config --global user.name "moinmubashir"
+
+D:\MERN>git config --global user.email "moinmubashir1@gmail.com"
+
+D:\MERN>git config --global color.ui auto
+
+D:\MERN> git init
+Initialized empty Git repository in D:/MERN/.git/
+
+
+D:\MERN>git remote add origin https://github.com/moinmubashir/GitDemo.git
+
+########## Pull Request  to  get file
+git pull origin main 
+
+
+##### Push Files
+
+git add .
+
+git status
+git comit -m "COmit messgae"
+
+git push
