@@ -10,7 +10,7 @@ Initialized empty Git repository in D:/MERN/.git/
 
 D:\MERN>git remote add origin https://github.com/moinmubashir/GitDemo.git
 
-########## Pull Request  to  get file
+##########Pull Request  to  get file
 git pull origin main 
 
 
@@ -19,6 +19,9 @@ git pull origin main
 git add .
 
 git status
-git comit -m "COmit messgae"
+git commit -m "COmit messgae"
+git push --set-upstream origin master
 
-git push
+######### create different branch
+
+git checkout -b "Testing" 
